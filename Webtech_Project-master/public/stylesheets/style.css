@@ -1,0 +1,117 @@
+html {
+  background: #B3FFAB;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #12FFF7, #B3FFAB);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #12FFF7, #B3FFAB);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Montserrat', sans-serif;
+}
+#header{
+  padding-top: 50px;
+}
+
+#desc{
+  padding-top: 50px;
+}
+body {
+  padding: 10px;
+  width: 75%;
+  margin: 0 auto;
+}
+#topbar{
+  background-color: #FAFAFA;  
+  border-bottom: 0.5px solid #ccc;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+#topbar a{
+    display: inline-block;
+    width: 20%;
+    margin-left: -4px;
+    text-align: center;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#topbar a:hover{
+  background-color: #ccc;
+}
+#topbar img{
+      width: 50px;
+      height: 50px;
+}
+
+#desc p{
+  font-size: 30px;
+  font-weight: 90;
+  margin-bottom: 0px;
+}
+
+h3{
+  margin-bottom: 0%;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+  word-spacing: 3.5px;
+}
+
+#follow{
+  border:1px solid #ccd;
+  background-color: #ccd;
+  border-radius: 2px;
+  font-family: montserrat;
+  outline: none;
+  vertical-align: middle;
+  margin-left: 15px;
+}
+
+#follow button:hover{
+  background-color: #ccc;
+}
+
+#bio p{
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+#dp {
+  border: 2px solid #3287a8;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+#desc {
+  position: absolute;
+  width: 50%;
+  top: 0px;
+  left: 450px;
+  margin: 0px;
+}
+
+/* 
+#header{
+  border-bottom: 2px solid #cccccc;
+} */
+
+#timeline {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 50px;
+}
+
+.post {
+  padding: 0;
+  margin: 20px;
+  width: 232.67px;
+  height: 232.67px;
+  border: 2px solid #cccccc;
+}
+
+.post img {
+  width: 232.67px;
+  height: 232.67px;
+}

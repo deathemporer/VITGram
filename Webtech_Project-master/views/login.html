@@ -1,0 +1,52 @@
+<!doctype html>
+<head>
+<title>Login</title>
+<style>
+    html {
+        background: #B3FFAB;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #12FFF7, #B3FFAB);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #12FFF7, #B3FFAB);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        font-family: 'Montserrat', sans-serif;
+    }
+    h1 {
+        text-align: center;
+    }
+    .myForm {
+        display: grid;
+        grid-template-columns: [labels] auto [controls] 1fr;
+        grid-auto-flow: row;
+        grid-gap: .8em;
+        background: #eee;
+        padding: 1.2em;
+        width: 50%;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .myForm>input,
+    .myForm>button {
+        grid-column: controls;
+        grid-row: auto;
+        border: none;
+        padding: 1em;
+    }
+    p{
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+<h1>Login</h1>
+<form class="myForm">
+    <input type="text" name="username" id="username" placeholder="UserName">
+    <input type="pass" name="pass" id="pass" placeholder="Password">
+    <button>Submit</button>
+</form>
+<p>New User? <a href="register.html"> Register</a>
+</p>
+</body>
+</html>

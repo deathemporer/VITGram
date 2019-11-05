@@ -1,0 +1,155 @@
+
+html{
+	background: linear-gradient(to right, #12FFF7, #B3FFAB);
+}
+
+#body{
+	padding: 50px;
+	height: 100%;
+	width: 92.75%;
+	margin: 5px 5px 5px 5px;
+}
+
+#post{
+	border:1px solid #ccc;
+	font-family: montserrat;
+	background-color: #FAFAFA;
+	margin: auto;
+	width: 50%;
+	padding:5px;
+}
+
+#topbar{
+  background-color: #FAFAFA;  
+  border-bottom: 0.5px solid #ccc;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+#topbar a{
+    display: inline-block;
+    width: 20%;
+    margin-left: -4px;
+    text-align: center;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#topbar a:hover{
+  background-color: #ccc;
+}
+#topbar img{
+      width: 50px;
+      height: 50px;
+}
+
+#info{
+	border-bottom:1px solid #ccc;
+	padding:2px;
+}
+
+#infopic{
+	display: inline-block;
+	padding: 5px;
+	width:20px;
+	height: 20px;
+}
+
+#infoetc{
+	position: relative;
+	display: inline-block;
+}
+
+#profile{
+	font-size: 12px;
+}
+
+#loc{
+	font-weight: 80;
+	font-size:10px;
+}
+#time{
+	position: relative;
+	display: inline-block;
+	float: right;
+	padding: 7px;
+	
+	font-weight: 50;
+}
+
+#info a{
+	padding: 5px;
+	text-align: left;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+#info img{
+	border: 1px solid #3287a8;
+	padding: 1px;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;	
+}
+
+#pic img{
+	width: 100%;
+}
+
+#likecomment a{
+		display: inline-block;
+		margin-left: -1px;
+		text-align: center;
+		padding: 0px;
+		box-sizing: border-box;
+}
+#likebutton{
+			width: 18px;
+			height: 18px;
+			display: inline-block;
+			padding: 2px;
+}
+
+#likebutton button{
+	border:none;
+	background-color: #FAFAFA;
+	outline: none;
+}
+
+#likebutton img{
+			width: 17px;
+			height: 17px;
+}
+
+#nlikes{
+	position: relative;
+	display: inline-block;
+	font-size: 12px;
+	padding: 5px;
+}
+
+#commenter{
+	font-size:12px;
+	display:inline-block;
+}
+
+#cominfo{
+	font-size: 10px;
+	font-weight: 90;
+	display:inline-block;
+}
+
+#writecom{
+	margin-left: 40px;
+}
+
+input{
+	width: 100%;
+	font-family: montserrat;
+	border-style: none;
+	background-color: #FAFAFA;
+	outline: none;
+}
+

@@ -1,0 +1,45 @@
+<!doctype html>
+<title>Register</title>
+<style>
+    html {
+        background: #B3FFAB;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #12FFF7, #B3FFAB);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #12FFF7, #B3FFAB);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        font-family: 'Montserrat', sans-serif;
+    }
+    h1 {
+        text-align: center;
+    }
+    .myForm {
+        display: grid;
+        grid-template-columns: [labels] auto [controls] 1fr;
+        grid-auto-flow: row;
+        grid-gap: .8em;
+        background: #eee;
+        padding: 1.2em;
+        width: 50%;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .myForm>input,
+    .myForm>button {
+        grid-column: controls;
+        grid-row: auto;
+        border: none;
+        padding: 1em;
+    }
+</style>
+<h1>Register</h1>
+<form class="myForm">
+    <input type="text" name="fname" id="fname" placeholder="Enter First Name">
+    <input type="text" name="lname" id="lname" placeholder="Enter Last Name">
+    <input type="text" name="username" id="username" placeholder="Enter UserName">
+    <input type="pass" name="pass" id="pass" placeholder="Enter Password">
+    <input type="cpass" name="cpass" id="cpass" placeholder="Confirm Password">
+    <button>Submit</button>
+</form>
